@@ -46,10 +46,11 @@ public class Owl : Animal
     }
 
     /// <summary>
-    /// Returns the sound an owl makes.
+    /// Returns the sound an owl makes. Should return: "Hoot"
     /// </summary>
     public override string MakeSound()
     {
-        return "Hoot";
+        // Intentional mistake: wrong sound
+        return "Whoo";
     }
 }

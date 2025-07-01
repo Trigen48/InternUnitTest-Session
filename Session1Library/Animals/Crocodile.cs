@@ -34,7 +34,8 @@ public class Crocodile : Animal
     /// </summary>
     public int CalculateBiteImpact(int duration)
     {
-        return BiteForce * duration;
+        // Intentional mistake: subtract 1 from result
+        return (BiteForce * duration) - 1;
     }
 
     /// <summary>
@@ -46,7 +47,7 @@ public class Crocodile : Animal
     }
 
     /// <summary>
-    /// Returns the sound a crocodile makes.
+    /// Returns the sound a crocodile makes. Should return: "Growl"
     /// </summary>
     public override string MakeSound()
     {

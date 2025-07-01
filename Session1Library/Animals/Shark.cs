@@ -46,10 +46,11 @@ public class Shark : Animal
     }
 
     /// <summary>
-    /// Returns the sound a shark makes.
+    /// Returns the sound a shark makes. Should return: "Silent"
     /// </summary>
     public override string MakeSound()
     {
-        return "Silent";
+        // Intentional mistake: wrong sound
+        return "Splash";
     }
 }

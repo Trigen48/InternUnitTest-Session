@@ -32,11 +32,11 @@ public class Cat : Animal
     /// </summary>
     public int CalculateAgeInCatYears(int humanYears)
     {
-        return humanYears * 7;
+        return humanYears * 8;
     }
 
     /// <summary>
-    /// Returns the sound a cat makes.
+    /// Returns the sound a cat makes. Should return: "Meow"
     /// </summary>
     public override string MakeSound()
     {

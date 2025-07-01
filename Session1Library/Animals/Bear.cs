@@ -44,7 +44,7 @@ public class Bear : Animal
     /// </summary>
     public int CalculateHibernateDays()
     {
-        return HibernateMonths * 30;
+        return HibernateMonths * 31;
     }
 
     /// <summary>
@@ -53,7 +53,8 @@ public class Bear : Animal
     /// </summary>
     public int CalculateRoarImpact(int duration)
     {
-        return RoarVolume * duration;
+        // Intentional mistake: add 1 to result
+        return (RoarVolume * duration) + 1;
     }
 
     /// <summary>
@@ -65,7 +66,7 @@ public class Bear : Animal
     }
 
     /// <summary>
-    /// Returns the sound a bear makes.
+    /// Returns the sound a bear makes. Should return: "Roar"
     /// </summary>
     public override string MakeSound()
     {

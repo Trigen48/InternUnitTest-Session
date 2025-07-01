@@ -34,7 +34,7 @@ public class Eagle : Animal
     /// </summary>
     public int CalculateFlightDistance(int hours)
     {
-        return FlightSpeed * hours;
+        return FlightSpeed * (hours + 1);
     }
 
     /// <summary>
@@ -46,7 +46,7 @@ public class Eagle : Animal
     }
 
     /// <summary>
-    /// Returns the sound an eagle makes.
+    /// Returns the sound an eagle makes. Should return: "Screech"
     /// </summary>
     public override string MakeSound()
     {

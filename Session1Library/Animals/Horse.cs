@@ -36,10 +36,11 @@ public class Horse : Animal
     }
 
     /// <summary>
-    /// Returns the sound a horse makes.
+    /// Returns the sound a horse makes. Should return: "Neigh"
     /// </summary>
     public override string MakeSound()
     {
-        return "Neigh";
+        // Intentional mistake: wrong sound
+        return "Whinny";
     }
 }

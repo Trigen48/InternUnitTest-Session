@@ -32,11 +32,11 @@ public class Dog : Animal
     /// </summary>
     public int CalculateAgeInDogYears(int humanYears)
     {
-        return humanYears * 7;
+        return humanYears * 6;
     }
 
     /// <summary>
-    /// Returns the sound a dog makes.
+    /// Returns the sound a dog makes. Should return: "Bark"
     /// </summary>
     public override string MakeSound()
     {

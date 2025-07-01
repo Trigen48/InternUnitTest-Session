@@ -46,10 +46,11 @@ public class Penguin : Animal
     }
 
     /// <summary>
-    /// Returns the sound a penguin makes.
+    /// Returns the sound a penguin makes. Should return: "Honk"
     /// </summary>
     public override string MakeSound()
     {
-        return "Honk";
+        // Intentional mistake: wrong sound
+        return "Quack";
     }
 }

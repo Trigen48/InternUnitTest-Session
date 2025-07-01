@@ -34,7 +34,7 @@ public class Dolphin : Animal
     /// </summary>
     public int CalculateEchoCoverage(int hours)
     {
-        return EchoRange * hours;
+        return (EchoRange * hours) + 2;
     }
 
     /// <summary>
@@ -46,7 +46,7 @@ public class Dolphin : Animal
     }
 
     /// <summary>
-    /// Returns the sound a dolphin makes.
+    /// Returns the sound a dolphin makes. Should return: "Click"
     /// </summary>
     public override string MakeSound()
     {

@@ -27,10 +27,11 @@ public class Snake : Animal
     }
 
     /// <summary>
-    /// Returns the sound a snake makes.
+    /// Returns the sound a snake makes. Should return: "Hiss"
     /// </summary>
     public override string MakeSound()
     {
-        return "Hiss";
+        // Intentional mistake: wrong sound
+        return "Ssssss";
     }
 }

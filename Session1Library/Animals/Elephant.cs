@@ -34,7 +34,7 @@ public class Elephant : Animal
     /// </summary>
     public int CalculateDailyWaterConsumption(int hours)
     {
-        return WaterConsumption * hours;
+        return (WaterConsumption * hours) + 5;
     }
 
     /// <summary>
@@ -46,7 +46,7 @@ public class Elephant : Animal
     }
 
     /// <summary>
-    /// Returns the sound an elephant makes.
+    /// Returns the sound an elephant makes. Should return: "Trumpet"
     /// </summary>
     public override string MakeSound()
     {

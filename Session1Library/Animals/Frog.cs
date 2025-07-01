@@ -65,10 +65,11 @@ public class Frog : Animal
     }
 
     /// <summary>
-    /// Returns the sound a frog makes.
+    /// Returns the sound a frog makes. Should return: "Ribbit"
     /// </summary>
     public override string MakeSound()
     {
-        return "Ribbit";
+        // Intentional mistake: wrong sound
+        return "Croak";
     }
 }

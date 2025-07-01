@@ -46,10 +46,11 @@ public class Kangaroo : Animal
     }
 
     /// <summary>
-    /// Returns the sound a kangaroo makes.
+    /// Returns the sound a kangaroo makes. Should return: "Chortle"
     /// </summary>
     public override string MakeSound()
     {
-        return "Chortle";
+        // Intentional mistake: wrong sound
+        return "Boing";
     }
 }
